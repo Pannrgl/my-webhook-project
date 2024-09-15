@@ -16,8 +16,8 @@ app.use(bodyParser.json());
 
 // Middleware untuk menyajikan file statis dari direktori root dan css
 app.use('/css', express.static(path.join(__dirname, 'css')));
-const TELEGRAM_API_TOKEN = '7408852623:AAHJ_sresG7ItyBExmzpHxDZokqJGMQKBCg';
-const TELEGRAM_CHAT_ID = '6470089932';
+const TELEGRAM_API_TOKEN = '';
+const TELEGRAM_CHAT_ID = '';
 
 
 // Route untuk menyajikan halaman utama
